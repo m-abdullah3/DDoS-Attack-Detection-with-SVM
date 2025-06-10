@@ -40,21 +40,28 @@ Install Dependencies:
 Install required libraries using pip:
 
 pip install pandas scikit-learn matplotlib
-Prepare the Dataset:
-Place the ddos_dataset.csv file in the project directory.
-Run the preprocessing script to generate the cleaned dataset:
 
-python PreprocessingData.py
+Prepare the Dataset:
+Place the preprocessed_ddos.csv file in the project directory.
+
 Run the SVM Models:
 Execute each model script to train and evaluate:
 
 python linear.py
+
 python Poly.py
+
 python Sigmoind.py
+
 Tech Stack / Libraries Used
+
 Python: Core programming language.
+
 Pandas: Data manipulation and preprocessing.
+
 Scikit-learn: SVM model implementation and performance metrics.
+
 Matplotlib: Visualization of histograms and confusion matrices.
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
